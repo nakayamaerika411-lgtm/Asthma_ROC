@@ -12,6 +12,7 @@ This project investigates the multifaceted risk factors associated with asthma d
 *   **Potential Synergistic Effects:** The interaction plot revealed crossing trend lines between smoking habits and hay fever. Although the interaction term was not statistically significant ($p=0.170$), the adjusted odds ratio exceeding 1.0 suggests a targeted clinical hypothesis: the impact of allergies on asthma risk may vary significantly depending on smoking status.
 *   **Model Performance & Limitations:** The model yielded an AUC of 0.556. While discriminative power is currently limited, this finding provides a critical, evidence-based rationale for incorporating higher-resolution environmental covariates (such as pollution exposure) in subsequent research phases.
 *   **Strategic Impact:** The identified risk trends within specific subgroups (e.g., smokers with hay fever) offer a data-driven foundation for more efficient and strategic patient recruitment in future observational studies.
+*   Asthma_Hay_Fever.pbix: An interactive dashboard built with Power BI.
 
 ### 🛠️ Methodology
 *   **Statistical Modeling:** Multivariable logistic regression adjusting for age, BMI, and physical activity.
@@ -38,6 +39,7 @@ This project investigates the multifaceted risk factors associated with asthma d
 ### 📈 結果 (Results)
 1.  **交互作用項の評価:** 喫煙と花粉症の交互作用項のP値は0.170であり、有意水準5%で統計的に有意な相乗効果は認められなかった。しかし、可視化されたプロットにおいては2本のトレンドラインが交差し、特定の条件下における非線形なリスク変動が観察された。
 2.  **モデルの識別能:** 現行の変数を投入したモデルのAUCは0.556であった。
+3.  Asthma_Hay_Fever.pbixはPower BIによるダッシュボードである。
 
 ### 🧠 考察 (Discussion)
 統計的に有意な交互作用は確認されなかったものの、トレンドラインの交差は、喫煙習慣の有無によってアレルギー疾患が喘息リスクに与える影響が異なる可能性を示唆している。この知見は、次相の臨床試験において、リスク変動が顕著な層に焦点を当てる「戦略的サンプリング」の基礎資料として有用である。
